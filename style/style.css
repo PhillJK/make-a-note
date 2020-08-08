@@ -137,6 +137,7 @@ aside button:active {
 }
 
 .note-container .note-content {
+    overflow-y: auto;
     height: 75%;
     margin-top: 10px;
     padding: 10px;

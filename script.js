@@ -4,7 +4,9 @@ const button = document.querySelector(".button");
 
 const noteBox = document.querySelector(".note-box");
 const date = document.querySelector(".date-span");
+
 let time = new Date;
+date.textContent = `${time.toDateString()}`;
 
 button.addEventListener("click", createNote);
 
@@ -24,5 +26,4 @@ function createNote() {
     }
 }
 
-date.textContent = `${time.toDateString()}`;
 
